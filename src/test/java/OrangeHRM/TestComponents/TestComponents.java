@@ -33,8 +33,8 @@ public class TestComponents {
 		// get the browser propertly from GlobalData
 		// if mvn command line has browser property it fetched the property and based on
 		// the browser, our code wille execute
-		String browserName = System.getProperty("user.dir") != null ? System.getProperty("browser") : prop.getProperty("browser");
-	//	String browserName1 = prop.getProperty("browser");
+	//	String browserName = System.getProperty("user.dir") != null ? System.getProperty("browser") : prop.getProperty("browser");
+		String browserName = prop.getProperty("browser");
 		System.out.println("The brows is "+browserName);
 		ChromeOptions options = new ChromeOptions();
 		if (browserName.contains("chrome")) {
