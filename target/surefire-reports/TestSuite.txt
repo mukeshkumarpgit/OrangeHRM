@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.085 s <<< FAILURE! - in TestSuite
+launchApplication(OrangeHRM.TestFolder.TestCaseOne)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because "browserName" is null
+
