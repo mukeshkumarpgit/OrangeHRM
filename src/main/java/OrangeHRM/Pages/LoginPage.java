@@ -21,6 +21,7 @@ public class LoginPage extends CommonUtilities {
 		PageFactory.initElements(driver, this);
 	}
 
+	//All the webelements of the are lister here
 	@FindBy(css = "input[name='username']")
 	WebElement userName;
 
